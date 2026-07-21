@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-};
+  output: 'export',
+  // If you use next/image, unoptimize it for static hosting:
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+module.exports = nextConfig

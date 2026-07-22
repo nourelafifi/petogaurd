@@ -101,7 +101,7 @@ export default function HeroSection() {
             className="relative w-full max-w-[320px] sm:max-w-md lg:max-w-lg aspect-square drop-shadow-[0_20px_40px_rgba(0,82,204,0.35)] transform-gpuWillChange"
           >
             <Image 
-              src="/hero-product.png" 
+              src="/hero-product.webp" 
               alt="Petovital Advanced Recovery Tonic Hero Render" 
               fill
               sizes="(max-width: 768px) 320px, (max-width: 1200px) 450px, 600px"

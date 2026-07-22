@@ -1,10 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  // If you use next/image, unoptimize it for static hosting:
-  images: {
-    unoptimized: true,
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {};
+
+if (process.env.NODE_ENV !== "production") {
+  const { initOpenNextCloudflareForDev } = await import(
+    "@opennextjs/cloudflare"
+  );
+  initOpenNextCloudflareForDev();
 }
 
-module.exports = nextConfig
+export default nextConfig;

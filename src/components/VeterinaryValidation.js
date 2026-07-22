@@ -5,19 +5,19 @@ import MotionCard from './MotionCard';
 const TESTIMONIALS = [
   {
     quote: "Petovital has changed our post-op protocol entirely. Animals refusing tablets take this easily, and their recovery markers rebound within 24 hours.",
-    author: "Dr. Aris Vance, DVM",
+    author: "Dr. Mohamad Ahmed, DVM",
     role: "Chief of Surgical Care, Vexil Surgical",
     accent: "bg-[#0052CC]/20 text-[#0052CC]"
   },
   {
     quote: "The sublingual mucosal bioavailability is real. We observe zero gastric distress even in our most sensitive trauma patients.",
-    author: "Dr. Elena Rostova, DVM",
+    author: "Dr. Sarah Fahmy, DVM",
     role: "Emergency Care Lead",
     accent: "bg-[#FF7A00]/20 text-[#FF7A00]"
   },
   {
     quote: "Dosing precision is effortless with the dropper system. It gives us consistent clinical results every single time.",
-    author: "Dr. Marcus Sterling, DVM",
+    author: "Dr. Youssef Ahmed, DVM",
     role: "Veterinary Clinical Director",
     accent: "bg-white/10 text-white"
   }

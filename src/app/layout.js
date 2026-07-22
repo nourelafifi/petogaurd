@@ -20,13 +20,8 @@ export const metadata = {
     images: ['/hero-product.png'],
   },
   icons: {
-    icon: [
-      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
-    ],
-    shortcut: ['/icon.png'],
-    apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
+    icon: "/icon.png",
+    apple: "/icon-192x192.png",
   },
 };
 
